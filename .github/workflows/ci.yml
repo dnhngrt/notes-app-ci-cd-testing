@@ -54,6 +54,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y k6
+          npm start
       - name: Run k6 load test
         run: k6 run loadtest/script.js
 
