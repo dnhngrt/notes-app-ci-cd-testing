@@ -41,7 +41,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=alen-devops
+            -Dsonar.projectKey=notes-app-ci-cd-testing
             -Dsonar.organization=alendevops
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }}
 
