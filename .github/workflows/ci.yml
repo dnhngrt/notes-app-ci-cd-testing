@@ -2,9 +2,9 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "feature/ci-cd-pipeline" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "feature/ci-cd-pipeline" ]
 
 jobs:
   lint:
