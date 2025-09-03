@@ -42,7 +42,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=alen-devops
-            -Dsonar.organization=Alen%20Devops
+            -Dsonar.organization=alendevops
             -Dsonar.host.url=${{ secrets.SONAR_HOST_URL }}
 
   k6:
